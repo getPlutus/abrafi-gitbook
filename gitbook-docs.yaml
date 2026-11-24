@@ -1,0 +1,31 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Abrafi Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Abrafi Docs
+      path: abrafi-docs
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Overview
+          path: untitled
+          default: true
+          content:
+            directory: ./abrafi-docs/untitled
+    - type: section
+      key: section-2
+      title: Guides
+      path: guides
+      description: ""
+      children:
+        - type: space
+          key: space-2
+          title: Guides
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./guides/product-docs
